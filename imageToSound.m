@@ -1,4 +1,4 @@
-function image_to_sound_RongHu(imagePath, f_low, f_high, duration)
+function image_to_sound(imagePath, f_low, f_high, duration)
     % Read and process the image
     img = imread(imagePath);
     % Convert to grayscale if not already (if needed)
@@ -55,4 +55,4 @@ function image_to_sound_RongHu(imagePath, f_low, f_high, duration)
     ylabel('Amplitude');
 end
 
-image_to_sound_RongHu('blackhole.jpg', 100, 2000, 10);
+image_to_sound('blackhole.jpg', 100, 2000, 10);
